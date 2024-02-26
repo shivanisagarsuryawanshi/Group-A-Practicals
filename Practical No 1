@@ -1,0 +1,37 @@
+Single node/Multiple node Hadoop Installation using Cloudera
+
+Downloading and Installing the Cloudera VM Instructions(Windows)
+ Reference link : https://youtu.be/SmS8x6xAsB4
+Learning Goals
+In this activity, you will:
+ Install 7-zip
+ Download and Install VirtualBox.
+ Download and Install Cloudera Virtual Machine (VM) Image.
+ Launch the Cloudera VM.
+Instructions
+Please use the following instructions to download and install the Cloudera Quickstart VM with
+VirutalBox before proceeding to the Getting Started with the Cloudera VM Environment video.
+1. Install 7-zip
+https://www.7-zip.org/download.html
+2. Install VirtualBox.
+https://www.virtualbox.org/wiki/Download_Old_Builds_6_1
+3. Download the Cloudera VM. Download the Cloudera VM from
+https://downloads.cloudera.com/demo_vm/virtualbox/cloudera-quickstart-vm5.13.0-0-virtualbox.zip
+The VM is over 4GB, so will take some time to download.
+4. Unzip the Cloudera VM:
+Right-click cloudera-quickstart-vm-5.13.0-0-virtualbox.zip and select “Extract All…”
+2. Start VirtualBox.
+3. Begin importing. Import the VM by going to File -> Import Appliance
+4. Click the Folder icon.
+5. Select the cloudera-quickstart-vm-5.13.0-0-virtualbox.ovf from the Folder where you
+unzippedthe VirtualBox VM and click Open.
+6. Click Next to proceed.
+7. Click Import.
+8. The virtual machine image will be imported. This can take several minutes.
+9. Launch Cloudera VM. When the importing is finished, the quickstart-vm-5.13.0-0 VM
+will appearon the left in the VirtualBox window. Select it and click the Start button to launch
+the VM.
+10. Cloudera VM booting. It will take several minutes for the Virtual Machine to start. The
+bootingprocess takes a long time since many Hadoop tools are started.
+11. The Cloudera VM desktop. Once the booting process is complete, the desktop will appear
+witha browser.
